@@ -11,7 +11,7 @@ Run "<tt>sudo ./read_DHT11</tt>" with wPi (wiringPi) PIN number parameter like: 
 Because the read is very sensitive for CPU loads, the data integrity check is required. 
 When read error detected, then after 2 seconds wait retry the read. After 4 retry exit with error (in tests never reached this limit :-)
 
-<b>Requirements</b><br>
+<b>Requirements:</b><br>
 WiringPi must be installed.
 
 <b>Install:</b><br>
